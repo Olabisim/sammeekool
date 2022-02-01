@@ -12,9 +12,53 @@ const Index = () => {
                                 
                                 <div className="full-screen">
                                         <div>
-                                                <h1>SAMMEEKOOL ENTERTAINMENT</h1>
+                                                <h1>BOOK US TODAY</h1>
                                                 <br />
-                                                <a className="button-line" href="#!">More</a> 
+                                                {/*<a className="button-line" href="#!">NOW</a> */}
+                                                <button class="btn fourth">NOW!</button>
+                                                <style>
+                                                {`
+                                                
+                                                        .btn {
+                                                                box-sizing: border-box;
+                                                                appearance: none;
+                                                                background-color: transparent;
+                                                                border: 1px solid WHITE;
+                                                                border-radius: 0.6em;
+                                                                color: #e74c3c;
+                                                                cursor: pointer;
+                                                                display: flex;
+                                                                align-self: center;
+                                                                justify-content: center
+                                                                font-size: 1rem;
+                                                                font-weight: 400;
+                                                                line-height: 1;
+                                                                margin: 20px;
+                                                                padding: 1.2em 2.8em;
+                                                                text-decoration: none;
+                                                                text-align: center;
+                                                                text-transform: uppercase;
+                                                                font-family: 'Montserrat', sans-serif;
+                                                                font-weight: 700;
+                                                        }
+                                                        .btn:hover, .btn:focus {
+                                                                color: #fff;
+                                                                outline: 0;
+                                                        }
+                                                        .fourth {
+                                                                border-color: #fff;
+                                                                color: #fff;
+                                                                background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+                                                                background-position: 100%;
+                                                                background-size: 400%;
+                                                                transition: background 300ms ease-in-out;
+                                                        }
+                                                        .fourth:hover {
+                                                                background-position: 0;
+                                                        }
+
+                                                `}
+                                                </style>
                                         </div>
                                 </div>
 
@@ -31,7 +75,7 @@ const Index = () => {
                                 -webkit-animation: Background 25s ease infinite;
                                 -moz-animation: Background 25s ease infinite;
                                 animation: Background 25s ease infinite;
-                                height: 700px;
+                                height: 500px;
                               }
                               
                               @-webkit-keyframes Background {
