@@ -1,4 +1,5 @@
 import {Header, Footer} from '../components/Layout'
+import MusicList from '../components/MusicList'
 
 
 // content: 'sammeekool entertainment presents';
@@ -15,14 +16,14 @@ const Index = () => {
                                                 <h1>BOOK US TODAY</h1>
                                                 <br />
                                                 {/*<a className="button-line" href="#!">NOW</a> */}
-                                                <button class="btn fourth">NOW!</button>
+                                                <button class="btn fourth" style={{margin: "auto"}}>NOW!</button>
                                                 <style>
                                                 {`
                                                 
                                                         .btn {
                                                                 box-sizing: border-box;
                                                                 appearance: none;
-                                                                background-color: transparent;
+                                                                background-color: transparent;undev
                                                                 border: 1px solid WHITE;
                                                                 border-radius: 0.6em;
                                                                 color: #e74c3c;
@@ -64,7 +65,10 @@ const Index = () => {
 
                         </section>
                         <section className='section2'>
-                        
+				<MusicList name="Musics" />
+                        </section>
+                        <section className='section2'>
+				<MusicList name="Videos" />
                         </section>
 
                         <style jsx> 
@@ -195,6 +199,9 @@ const Index = () => {
                               }
                         `}
                         </style>
+
+
+
 
                         <Footer />
                 </div>

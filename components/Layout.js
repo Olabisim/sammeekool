@@ -395,7 +395,9 @@ const Footer = () => {
                     <div className="row">
                       <div className="col-sm-12 col-md-6">
                         <h6>About</h6>
-                        <p className="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                        <p className="text-justify"><i>CODE WANTS TO BE SIMPLE </i>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        </p>
                       </div>
             
                       <div className="col-xs-6 col-md-3">
@@ -450,7 +452,7 @@ const Footer = () => {
                           background-color: black;
                           position: relative;
                           padding:45px 0 20px;
-                          font-size:15px;
+                          font-size:13px;
                           line-height:24px;
                           color:#737373;
                           z-index: 2000;
@@ -467,7 +469,7 @@ const Footer = () => {
                         .site-footer h6
                         {
                           color:#fff;
-                          font-size:16px;
+                          font-size:11px;
                           text-transform:uppercase;
                           margin-top:5px;
                           letter-spacing:2px
@@ -556,12 +558,12 @@ const Footer = () => {
                           text-transform:uppercase;
                           color:#96a2b2;
                           font-weight:700;
-                          font-size:13px
+                          font-size:11px
                         }
                         .social-icons a{
                           background-color:#eceeef;
                           color:#818a91;
-                          font-size:16px;
+                          font-size:14px;
                           display:inline-block;
                           line-height:44px;
                           width:44px;
@@ -583,7 +585,7 @@ const Footer = () => {
                           line-height:34px;
                           height:34px;
                           width:34px;
-                          font-size:14px
+                          font-size:12px
                         }
                         .social-icons a.facebook:hover
                         {
