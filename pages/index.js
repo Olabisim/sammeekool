@@ -124,7 +124,7 @@ const Index = () => {
                                 right: 0;
                                 bottom: 0;
                                 left: 0;
-                                background: url(https://i.imgur.com/wCG2csZ.png);
+                                background: #fa4a0c;
                                 background-size: cover;
                                 background-position: center;
                                 width: 100%;
