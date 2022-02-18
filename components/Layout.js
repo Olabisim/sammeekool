@@ -12,20 +12,33 @@ const Header = () => {
                 
                         <nav id="navbar" className="">
                                 <div className="nav-wrapper">
+                                        
+                                        {/*  Navbar Logo */}
+                                        <div className="logo">
+                                        {/*  Logo Placeholder for Inlustration */}
+                                        <Link href="/">
+                                                <a><i className="fa fa-angellist"></i> SAMMEEKOOL </a>
+                                        
+                                        </Link>
+                                        </div>
                                 
-                                {/*  Navbar Logo */}
-                                <div className="logo">
-                                {/*  Logo Placeholder for Inlustration */}
-                                <a href="#home"><i className="fa fa-angellist"></i> SAMMEEKOOL </a>
-                                </div>
-                        
-                                {/*  Navbar Links */}
-                                <ul id="menu">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#services">Music</a></li>
-                                <li><a href="#about">Videos</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                                </ul>
+                                        {/*  Navbar Links */}
+                                        <ul id="menu">
+
+                                                <li>
+                                                        <Link href="/">
+                                                                <a>Home</a>
+                                                        </Link>
+                                                </li>
+
+                                                <li><a href="#services">Music</a></li>
+                                                <li><a href="#about">Videos</a></li>
+                                                <li>
+                                                        <Link href="/contact">
+                                                                <a>Contact</a>
+                                                        </Link>
+                                                </li>
+                                        </ul>
                                 </div>
                         </nav>
                 

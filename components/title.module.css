@@ -44,7 +44,7 @@
 .eleven h1:after {
         position:absolute;
         width:40px; height:40px; left:50%; margin-left:-20px; bottom:0px;
-        content: '\00a7'; font-size:30px; line-height:40px; color:#c50000;
+        content: '\00a7'; font-size:30px; line-height:40px; color:#fa4a0c;;
         font-weight:400; z-index: 5;
         display:block;
         background-color:#f8f8f8;

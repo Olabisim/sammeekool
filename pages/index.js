@@ -1,22 +1,30 @@
 import {Header, Footer} from '../components/Layout'
 import MusicList from '../components/MusicList'
+import styles from '../components/module_css/index.module.css'
+import Link from "next/link"
 
 
 // content: 'sammeekool entertainment presents';
 
-const Index = () => {
-        return (
+const Index = () =>  (
 
                 <div>
                         <Header />
-                        <section className='section'>
+                        <section className={styles.section}>
                                 
-                                <div className="full-screen">
-                                        <div>
-                                                <h1>BOOK US TODAY</h1>
+                                <div className={styles.full_screen}>
+                                        <div className={styles.full_screen_set}>
+                                                <h1 className={styles.h1}>BOOK US TODAY</h1>
                                                 <br />
                                                 {/*<a className="button-line" href="#!">NOW</a> */}
-                                                <button class="btn fourth" style={{margin: "auto"}}>NOW!</button>
+                                                <button class="btn fourth" style={{margin: "auto"}}>
+                                                        <Link href="/contact">
+                                                                <a className={styles.for_font}>
+                                                                        NOW!
+                                                                </a>
+                                                        
+                                                        </Link>
+                                                </button>
                                                 <style>
                                                 {`
                                                 
@@ -71,122 +79,6 @@ const Index = () => {
 				<MusicList name="Videos" />
                         </section>
 
-                        <style jsx> 
-                        {`
-                        section.section {
-                                background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
-                                background-size: 300% 300%;
-                                -webkit-animation: Background 25s ease infinite;
-                                -moz-animation: Background 25s ease infinite;
-                                animation: Background 25s ease infinite;
-                                height: 500px;
-                              }
-                              
-                              @-webkit-keyframes Background {
-                                0% {
-                                  background-position: 0% 50%
-                                }
-                                50% {
-                                  background-position: 100% 50%
-                                }
-                                100% {
-                                  background-position: 0% 50%
-                                }
-                              }
-                              
-                              @-moz-keyframes Background {
-                                0% {
-                                  background-position: 0% 50%
-                                }
-                                50% {
-                                  background-position: 100% 50%
-                                }
-                                100% {
-                                  background-position: 0% 50%
-                                }
-                              }
-                              
-                              @keyframes Background {
-                                0% {
-                                  background-position: 0% 50%
-                                }
-                                50% {
-                                  background-position: 100% 50%
-                                }
-                                100% {
-                                  background-position: 0% 50%
-                                }
-                              }
-                              
-                              .full-screen {
-                                position: fixed;
-                                top: 0;
-                                right: 0;
-                                bottom: 0;
-                                left: 0;
-                                background: #fa4a0c;
-                                background-size: cover;
-                                background-position: center;
-                                width: 100%;
-                                height: 100%;
-                                display: -webkit-flex;
-                                display: flex;
-                                -webkit-flex-direction: column
-                                /* works with row or column */
-                                
-                                flex-direction: column;
-                                -webkit-align-items: center;
-                                align-items: center;
-                                -webkit-justify-content: center;
-                                justify-content: center;
-                                text-align: center;
-
-                              }
-                              
-                              h1 {
-                                color: #fff;
-                                font-family: 'Open Sans', sans-serif;
-                                font-weight: 800;
-                                font-size: 3em;
-                                letter-spacing: -2px;
-                                text-align: center;
-                                text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
-                              }
-                              
-                              h1:after {
-                                display: block;
-                                color: #fff;
-                                letter-spacing: 1px;
-                                font-family: 'Poiret One', sans-serif;
-                                content: 'sammeekool entertainment presents';
-                                font-size: .4em;
-                                text-align: center;
-                              }
-                              
-                              .button-line {
-                                font-family: 'Open Sans', sans-serif;
-                                text-transform: uppercase;
-                                letter-spacing: 2px;
-                                background: transparent;
-                                border: 1px solid #fff;
-                                color: #fff;
-                                text-align: center;
-                                font-size: 1.4em;
-                                opacity: .8;
-                                padding: 20px 40px;
-                                text-decoration: none;
-                                transition: all .5s ease;
-                                margin: 0 auto;
-                                display: block;
-                                width: 100px;
-                              }
-                              
-                              .button-line:hover {
-                                opacity: 1;
-                              }
-                                
-                        `}
-                        </style>
                         <style jsx>
                         {`
                               section.section2 {
@@ -206,6 +98,5 @@ const Index = () => {
                         <Footer />
                 </div>
         )
-}
 
 export default Index;
