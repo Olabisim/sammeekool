@@ -16,9 +16,15 @@
 }
 
 .main {
-        /* height: 400px; */
+        height: 550px;
 }
 
+@media only screen and (max-width: 800px) {
+  .main {
+          height: 700px;
+  }
+  
+}
 
 
 /* helped */

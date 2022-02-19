@@ -2,6 +2,7 @@ import {Header, Footer} from '../components/Layout'
 import MusicList from '../components/MusicList'
 import styles from '../components/module_css/index.module.css'
 import Link from "next/link"
+import PostLoading from '../components/PostLoading'
 
 
 // content: 'sammeekool entertainment presents';
@@ -17,54 +18,17 @@ const Index = () =>  (
                                                 <h1 className={styles.h1}>BOOK US TODAY</h1>
                                                 <br />
                                                 {/*<a className="button-line" href="#!">NOW</a> */}
-                                                <button class="btn fourth" style={{margin: "auto"}}>
-                                                        <Link href="/contact">
+                                                
+                                                <Link href="/contact">
+                                                <button className={styles.btn} style={{margin: "auto"}}>
                                                                 <a className={styles.for_font}>
                                                                         NOW!
                                                                 </a>
-                                                        
-                                                        </Link>
                                                 </button>
+                                                </Link>
                                                 <style>
                                                 {`
                                                 
-                                                        .btn {
-                                                                box-sizing: border-box;
-                                                                appearance: none;
-                                                                background-color: transparent;undev
-                                                                border: 1px solid WHITE;
-                                                                border-radius: 0.6em;
-                                                                color: #e74c3c;
-                                                                cursor: pointer;
-                                                                display: flex;
-                                                                align-self: center;
-                                                                justify-content: center
-                                                                font-size: 1rem;
-                                                                font-weight: 400;
-                                                                line-height: 1;
-                                                                margin: 20px;
-                                                                padding: 1.2em 2.8em;
-                                                                text-decoration: none;
-                                                                text-align: center;
-                                                                text-transform: uppercase;
-                                                                font-family: 'Montserrat', sans-serif;
-                                                                font-weight: 700;
-                                                        }
-                                                        .btn:hover, .btn:focus {
-                                                                color: #fff;
-                                                                outline: 0;
-                                                        }
-                                                        .fourth {
-                                                                border-color: #fff;
-                                                                color: #fff;
-                                                                background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
-                                                                background-position: 100%;
-                                                                background-size: 400%;
-                                                                transition: background 300ms ease-in-out;
-                                                        }
-                                                        .fourth:hover {
-                                                                background-position: 0;
-                                                        }
 
                                                 `}
                                                 </style>
@@ -74,9 +38,12 @@ const Index = () =>  (
                         </section>
                         <section className='section2'>
 				<MusicList name="Musics" />
+                                <PostLoading />
+
                         </section>
                         <section className='section2'>
 				<MusicList name="Videos" />
+                                <PostLoading />
                         </section>
 
                         <style jsx>

@@ -2,7 +2,7 @@
 
 
 section.section {
-background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+/* background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1); */
 background-size: 300% 300%;
 -webkit-animation: Background 25s ease infinite;
 -moz-animation: Background 25s ease infinite;
@@ -56,7 +56,7 @@ background: #fa4a0c;
 background-size: cover;
 background-position: center;
 width: 100%;
-height: 100%;
+height: 420px;
 display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: column;
@@ -75,7 +75,7 @@ text-align: center;
         flex-direction: column;
         align-items: center;
         height: 400px; */
-
+        margin-top: 50px;
 }
 
 .h1 {
@@ -85,39 +85,79 @@ font-family: 'Poiret One', cursive;
 }
 
 .h1:after {
-display: block;
-color: #fff;
-letter-spacing: 1px;
-font-family: 'Poiret One', sans-serif;
-content: 'sammeekool entertainment presents';
-font-size: .4em;
-text-align: center;
+        display: block;
+        color: #fff;
+        letter-spacing: 1px;
+        font-family: 'Poiret One', sans-serif;
+        content: 'sammeekool entertainment presents';
+        font-size: .4em;
+        text-align: center;
 }
 
 .button_line {
-font-family: 'Poiret One', cursive;
-text-transform: uppercase;
-letter-spacing: 2px;
-background: transparent;
-border: 1px solid #fff;
-color: #fff;
-text-align: center;
-font-size: 1.4em;
-opacity: .8;
-padding: 20px 40px;
-text-decoration: none;
-transition: all .5s ease;
-margin: 0 auto;
-display: block;
-width: 100px;
+        font-family: 'Poiret One', cursive;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        text-align: center;
+        font-size: 1.4em;
+        opacity: .8;
+        padding: 20px 40px;
+        text-decoration: none;
+        transition: all .5s ease;
+        margin: 0 auto;
+        display: block;
+        width: 100px;
 }
 
 .button_line:hover {
-opacity: 1;
+        opacity: 1;
 }
 
 .for_font {
         
-font-family: 'Poiret One', cursive;
-color: white;
+        font-family: 'Poiret One', cursive;
+        color: white;
+}
+
+
+
+.btn {
+        box-sizing: border-box;
+        appearance: none;
+        background-color: white;
+        border: 1px solid WHITE;
+        border-radius: 0.6em;
+        color: #e74c3c !important;
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 20px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        /* font-weight: 700; */
+        border-color: #fff;
+        color: #fff;
+        background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 400%;
+        transition: background 300ms ease-in-out;
+}
+.btn:hover, .btn:focus {
+        color: #fff;
+        outline: 0;
+}
+.fourth {
+}
+.fourth:hover {
+        background-position: 0;
 }
