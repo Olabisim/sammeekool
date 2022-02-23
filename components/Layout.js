@@ -407,7 +407,7 @@ const Footer = () => {
                   <div className="container">
                     <div className="row">
                       <div className="col-md-8 col-sm-6 col-xs-12">
-                        <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+                        <p className="copyright-text">Copyright &copy; 2022 All Rights Reserved by Sammeekool, developed by
                      <a href="#"> Olabisi</a>.
                         </p>
                       </div>
