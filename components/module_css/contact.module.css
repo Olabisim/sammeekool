@@ -81,7 +81,7 @@
 
 .form_title {
   color: #fff;
-  font-size: 0.6rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   line-height: 1px;
@@ -96,7 +96,7 @@
 .form_field {
   outline: none;
   width: 200%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
     margin-bottom: .9rem;
 }
 
@@ -107,7 +107,7 @@
   background: transparent;
   border: none;
   letter-spacing: 2px;
-  font-size: .6rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   padding-bottom: 0.7rem;
 }
@@ -124,7 +124,7 @@
   margin-top: 3rem;
   border: none;
   color: white;
-  font-size: 0.6rem;
+  font-size: 1.5rem;
   letter-spacing: 2.5px;
   font-weight: 700;
   text-transform: uppercase;
@@ -152,15 +152,15 @@
 
 .contact_info h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fa4a0c;
 }
 
 .contact_info a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  color: #666;
-  font-size: 0.8rem;
+  color: #dddcdc;
+  font-size: 1.5rem;
   letter-spacing: 2px;
   line-height: 3rem;
   margin-bottom: 5rem;
@@ -185,6 +185,22 @@
   transform: scale(1.2);
   color: #999;
 }
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+/* ::placeholder { 
+  color: red;
+  opacity: 1; 
+} */
+
+/* Internet Explorer 10-11 */
+/* :-ms-input-placeholder { 
+  color: red;
+} */
+
+/* Microsoft Edge */
+/* ::-ms-input-placeholder { 
+  color: red;
+} */
 
 
 @media screen and (max-width: 960px) {
