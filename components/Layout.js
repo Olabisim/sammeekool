@@ -1,10 +1,11 @@
 
 
 import Link from 'next/link'
-
+import { useRef } from 'react'
 
 const Header = () => {
-        
+
+        const hamburger = useRef(null)
 
         return (
 
