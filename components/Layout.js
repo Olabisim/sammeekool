@@ -431,7 +431,7 @@ const Footer = () => {
                         {
                           background-color: black;
                           position: relative;
-                          padding:45px 0 20px;
+                          padding:20px 10px;
                           font-size:13px;
                           line-height:24px;
                           color:#737373;

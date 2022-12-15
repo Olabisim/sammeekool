@@ -69,6 +69,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 
+z-index: 1;
 }
 .full_screen_set {    
         /* display: flex;
@@ -164,3 +165,74 @@ font-family: 'Poiret One', cursive;
 .fourth:hover {
         background-position: 0;
 }
+.section2 {
+        background: rgba(255, 255, 255, 0.92);
+        position: relative;
+        z-index: 2;
+}
+.tabSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+.tabSection div  {
+        padding-top: 20px;
+}
+.tabSection div button {
+        background: white;
+        color: #fa4a0c;
+        border:1px solid #fa4a0c;
+        padding: 10px 30px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+}
+.tabSection div button:hover {
+        background: #fa4a0c;
+        color: white;
+}
+.tabSection div .active {
+        background: #fa4a0c;
+        color: white;
+}
+.card_div {
+        display: flex;
+        justify-content: center;
+}
+.card {
+        display: flex;
+        width: 600px;
+        height: 230px;
+}
+.card > div {
+        padding: 10px;
+}
+.card h2 {
+        font-weight: 700;
+        font-size: 16px;
+}
+.card div img{
+        width: 300px;
+}
+.card .innerDiv2 {
+        font-size: 10px;
+}
+.card .innerDiv2_innerDiv1 {
+        font-size: 9px;
+}
+.card .innerDiv2_innerDiv1_span {
+        padding-left: 5px;
+}
+.card .innerDiv2_innerDiv3 button {
+        background: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 12px;
+        font-weight: 100;
+        letter-spacing: 1px;
+}
+
