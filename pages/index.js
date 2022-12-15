@@ -49,11 +49,10 @@ const Index = () =>  (
                         <style jsx>
                         {`
                               section.section2 {
-                                      background:white;
-                                      height: 700px;
-                                      width: 100%;
-                                      position: relative;
-                                      
+                                        background:white;
+                                        height: 700px;
+                                        width: 100%;
+                                        position: relative;
                                         z-index: 2000;
                               }
                         `}

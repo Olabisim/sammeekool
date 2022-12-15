@@ -2,7 +2,7 @@
 
 .root {
         background: #fa4a0c;
-        height: 300px;
+        height: 200px;
         color: white;
 }
 
@@ -10,7 +10,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        height: 200px;
         font-family: 'Poiret One', cursive;
 }
 

@@ -7,7 +7,7 @@ background-size: 300% 300%;
 -webkit-animation: Background 25s ease infinite;
 -moz-animation: Background 25s ease infinite;
 animation: Background 25s ease infinite;
-height: 400px;
+height: 300px;
 }
 
 @-webkit-keyframes Background {
@@ -56,7 +56,7 @@ background: #fa4a0c;
 background-size: cover;
 background-position: center;
 width: 100%;
-height: 420px;
+height: 300px;
 display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: column;
@@ -119,7 +119,10 @@ font-family: 'Poiret One', cursive;
 .for_font {
         
         font-family: 'Poiret One', cursive;
-        color: white;
+        color: #fa4a0c;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-size: 22px;
 }
 
 
